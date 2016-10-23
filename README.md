@@ -1,10 +1,17 @@
-# Artoo2016
+# Artoo2016 
 ##MongoDb
 
-- Esegui:  `npm install`
 
->  > per installare le dipendenze elencate su `package.json`.
-
-- Modifica il `server.js` aggiungendo a mongoose.connect('') la uri di MLAB
-
-- Lancia il server con il comando: `gulp`
+### Istruzioni
+1. Installa le dipendenze
+	
+	```
+	npm install
+	```
+2. Modifica il `server.js` aggiungendo a mongoose.connect('') la uri di MLAB
+	
+3. Lancia il server attraverso il comando
+	
+	``` 
+	gulp
+	```
